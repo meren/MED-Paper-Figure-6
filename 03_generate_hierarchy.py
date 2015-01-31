@@ -7,7 +7,9 @@ read_id_to_otu_id  = cPickle.load(open('read_id_to_otu_id.cPickle'))
 read_id_to_taxa    = cPickle.load(open('read_id_to_taxa.cPickle'))
 taxa_to_read_ids   = cPickle.load(open('taxa_to_read_ids.cPickle'))
 
-nodes = [x.strip() for x in open('02_MED_nodes_by_freq.txt').readlines()]
+# NODE_IDS_OF_INTEREST required here is the file mentioned in 02_gen_MED_dict.py
+# file:
+nodes = [x.strip() for x in open(NODE_IDS_OF_INTEREST).readlines()]
 
 relations = {}
 
