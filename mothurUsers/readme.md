@@ -1,4 +1,4 @@
-## script for mothur users
+## Script for mothur users
 
 This script takes the output from mothur's bin.seqs command and turns it into the output from Qiime's pick_otus.py command, which can then be used with the MED-Paper-Figure-6 scripts
 
