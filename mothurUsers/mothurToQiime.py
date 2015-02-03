@@ -33,17 +33,7 @@ with open(binSeqs_handle) as f:
 			else:
 				seqDict[otuNum].append(seqID)
 
-print "you have %d sequences and %d OTUs" % (seqCount, otuCount)
+print "output file OTUseqID.txt contains %d sequences and %d OTUs" % (seqCount, otuCount)
 
 for j in seqDict:
 	output_handle.write(j + '\t' + '\t'.join(seqDict[j]) + '\n')
-
-
-
-
-
-
-
-
-
-
