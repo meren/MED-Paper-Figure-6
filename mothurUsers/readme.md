@@ -1,6 +1,6 @@
 ## Script for mothur users
 
-This script takes the output from mothur's bin.seqs command and turns it into the output from Qiime's pick_otus.py command, which can then be used with the MED-Paper-Figure-6 scripts
+This script takes the output from mothur's bin.seqs command and turns it into something similar to the output from Qiime's pick_otus.py command, which can then be used with the MED-Paper-Figure-6 scripts
 
 The bin.seqs command in mothur should be used as follows:
 bin.seqs(list=YOURFILE.list, fasta=YOUFILE.fasta, label=0.03)
